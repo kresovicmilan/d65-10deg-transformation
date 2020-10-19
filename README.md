@@ -42,7 +42,7 @@ Open Matlab and change your current directory to the directory where is *reflect
 
 * **filename** - contains the name of the transformed file - e. g. ```"somename_Transformed.txt"```
 * **measurement_condition** - contains the Illuminant and the viewing angle - e. g. ```'d50_31'```, ```'d65_64'```, ```'a_31'```, etc.
-* **obs** - same as *measurement__condition*
+* **obs** - contains the Illuminant and the viewing angle of what you would like your LAB values to be converted to - e. g. same as *measurement__condition*
 * **type_of_test_chart** - contains type of the test chart - supported values: ```'eci2002v_cmyk'```, ```'tc918_rgb'``` or ```'eci2002r_cmyk'```
 * **name_of_the_printer** - e. g. ```'Durst'```, ```'HP'```, etc.
 
