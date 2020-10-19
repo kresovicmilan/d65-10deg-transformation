@@ -24,7 +24,7 @@ Place your measurnments folder in the same folder where is *transformation.py* f
 
 ## Steps
 
-Do the following steps to get well-formated file with LAB values.
+Do the following steps to get correctly formatted file with LAB values.
 
 ### Step 1
 
