@@ -50,4 +50,4 @@ Open Matlab and change your current directory to the directory where is *reflect
 
 Go to the *format_file.py* and change **MATLAB_FILE_PATH** which should contain the file path of calculated LAB measurements from *step 2*, and change **TRANSFORMED_FILE_PATH** which should contain the file path of the transformed file from *step 1*.
 
-If everything is done properly, generated file should be stored in *3GeneratedFiles* folder.
+If everything is done properly, generated file will be stored in *3GeneratedFiles* folder.
