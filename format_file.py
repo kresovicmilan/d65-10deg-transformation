@@ -6,8 +6,8 @@ from io import StringIO
 import os
 
 #SET UP
-MATLAB_FILE_PATH = '2CalculatedXYZLAB\HP_eci2002v_cmyk_d65_64.txt' #CHECK THAT THIS TWO BE THE SAME
-TRANSFORMED_FILE_PATH = '1TransformedFiles/ECI2002V-2020101215080000.spd_Transformed.txt'
+MATLAB_FILE_PATH = '2CalculatedXYZLAB\Durst_eci2002v_cmyk_d50_31.txt' #CHECK THAT THIS TWO BE THE SAME
+TRANSFORMED_FILE_PATH = '1TransformedFiles/ECI2002V_updown.spd_Transformed.txt'
 TEST_CHART = MATLAB_FILE_PATH.split('_')[1]
 MEASUREMENT_TYPE = MATLAB_FILE_PATH.split('_')[2]
 OBSERVER = MATLAB_FILE_PATH.split('_')[3] + '_' + MATLAB_FILE_PATH.split('_')[4]
