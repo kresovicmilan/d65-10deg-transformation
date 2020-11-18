@@ -51,3 +51,19 @@ Open Matlab and change your current directory to the directory where is *reflect
 Go to the *format_file.py* and change **MATLAB_FILE_PATH** which should contain the file path of calculated LAB measurements from *step 2*, and change **TRANSFORMED_FILE_PATH** which should contain the file path of the transformed file from *step 1*.
 
 If everything is done properly, generated file will be stored in *3GeneratedFiles* folder.
+
+### Step 4
+
+Step 4 is for generating test chart images from test chart that contains spectral data
+
+Open Matlab and change your current directory to the directory where is *reflectance_conversion_printing.m* file. Run the following code:
+
+```
+[XYZ, LAB] = reflectance_conversion(filename, col);
+```
+
+* **filename** - contains the name of the test chart file that contains spectral data - e. g. ```"somename.txt"```
+* **col** - colorimetry that is used - e. g. ```'d50_31'```, ```'d65_64'```, ```'a_31'```, etc.
+
+The generated test chart images, together with files that contain XYZ and CIELAB values can be found in *5TestImagesAndColorimetry*
+
